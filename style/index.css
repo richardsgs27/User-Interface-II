@@ -103,7 +103,7 @@ html {
 
 body {
   background-color: yellow;
-  border: 1px solid black;
+  border: 1px solid green;
   font-family: "Indie Flower", cursive;
   font-size: 1.5rem;
 }
@@ -313,4 +313,57 @@ nav .contact-me {
 }
 .contact-me {
   margin: 4% auto;
+}
+
+@media (max-width: 800px) {
+  .smalls {
+    font-size: 2rem;
+  }
+  .site-title {
+    font-size: 3rem;
+    margin-right: 20%;
+  }
+
+  .links-container {
+    margin: 2%;
+    margin-left: 40%;
+  }
+  .links {
+    flex-direction: column;
+  }
+
+  .links a {
+    padding: 2% 20%;
+  }
+  .images {
+    flex-wrap: wrap;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    border-color: red;
+    width: 48%;
+    margin: 1% 1%;
+  }
+}
+
+@media (max-width: 500px) {
+  .site-title {
+    font-size: 3rem;
+    margin-right: 20%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    letter-spacing: 25px;
+  }
+
+  /* .container {
+    width: 100%;
+  } */
 }
