@@ -333,7 +333,12 @@ nav .contact-me {
   }
 
   .links a {
+    font-size: 2rem;
     padding: 2% 20%;
+  }
+
+  .p-content {
+    font-size: 2rem;
   }
   .images {
     flex-wrap: wrap;
@@ -345,6 +350,19 @@ nav .contact-me {
     border-color: red;
     width: 48%;
     margin: 1% 1%;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info p {
+    width: 2%;
+    margin: 0 auto;
+    padding: 5px 50%;
+    justify-content: center;
+    font-size: 2rem;
   }
 }
 
@@ -363,7 +381,21 @@ nav .contact-me {
     letter-spacing: 25px;
   }
 
-  /* .container {
-    width: 100%;
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .info {
+    height; 2vh;
+  }
+
+  /* .info p {
+    width: 2%;
+    margin: 0 auto;
+    padding: 5px 10%;
+    justify-content: center;
   } */
 }
