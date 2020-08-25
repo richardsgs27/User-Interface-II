@@ -388,14 +388,10 @@ nav .contact-me {
     margin: 0;
   }
 
-  .info {
-    height; 2vh;
-  }
-
-  /* .info p {
+  .info p {
     width: 2%;
     margin: 0 auto;
     padding: 5px 10%;
     justify-content: center;
-  } */
+  }
 }
